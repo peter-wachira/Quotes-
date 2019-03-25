@@ -1,5 +1,5 @@
 <!--Main Navigation-->
-<header class="intro-header">
+<header class="intro-header ">
 
   <!--Navbar-->
   <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -32,11 +32,11 @@
         <div class="d-flex align-items-center content-height w-100">
           <div class="row flex-center pt-5 mt-3 w-100">
             <div class="col-md-6 text-center text-md-left mb-5">
-              <div class="white-text">
+              <div class="white-text ">
                 <h2 class="h1 h1-responsive font-bold wow fadeInLeft" data-wow-delay="0.3s"> Quotes </h2>
                 <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
                 <h6 class="wow fadeInLeft" data-wow-delay="0.3s">
-                  <div class="myQuote" *ngFor="let quote of quotes; let i=index">
+                  <div class="myQuote " *ngFor="let quote of quotes; let i=index">
                     <p class="h3 h3-responsive font-bold wow fadeInLeft" data-wow-delay="1s" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">
                       {{quote.quote}}
 
