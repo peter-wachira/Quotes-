@@ -26,10 +26,10 @@
     <label for="form4">Author</label>
   </div>
   <div class="md-form">
-    <label for="complete">Completion Date</label>
-    <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+    <i class="far fa-clock prefix white-text"></i>
+    <input type='date' id="form5" class="form-control white-text" name="completeDate" [(ngModel)]="quoteDate" mdbInput>
+    <label class=" white-text" for="form5">Completion Date</label>
     </div>
-
     <div class="text-center">
       <button type="submit" mdbBtn color="indigo" class="waves-light btn btn-info" mdbWavesEffect>Post Quote</button>
       <hr class="hr-light mb-3 mt-4">

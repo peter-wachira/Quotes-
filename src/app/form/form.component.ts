@@ -11,6 +11,7 @@ export class FormComponent implements OnInit {
   quoteWords:string
   quoteEditor:string
   quoteAuthor:string
+  quoteDate:number
   theWords:any
 
   submitQuote(){
