@@ -12,8 +12,10 @@
 |--------------------------    |----------------------------------------------------------------------------------------------    |
 | User clicks Post  Quote     | Quote form displays with input fields for Author, Publisher                  |
 
-| User Clicks Delete           | The quote is purged from view                                                                    |
-| User clicks Upvote        |   upvote is incremented value by 1 on each click      |
+| User Clicks Delete           | The quote is purged from view             |
+
+| User clicks Upvote        |   upvote is incremented value by   1 on each click      |
+
 | User clicks Downvote     | downvote is decremented value by 1 on each click     |
 
 ## Setup/Installation requirements
@@ -34,6 +36,8 @@ To view the page click on the link below
 
 ## Support and Contact Details
 - For any comments,suggestions,feedback or inquiries, contact me via email: `pwachira900@gmail.com`
+
+
 - Make contributions to the code.
 
 ## License
