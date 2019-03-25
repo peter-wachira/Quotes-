@@ -26,12 +26,8 @@
     <label for="form4">Author</label>
   </div>
   <div class="md-form">
-    <label for="complete">Completion</label>
-    <input type='date' id="complete" [(ngModel)]="newGoal.completeDate" name="completeDate" #completeDate="ngModel" required>
-    <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-      <p> Complete Date is Required</p>
-
-    </div>
+    <label for="complete">Completion Date</label>
+    <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
     </div>
 
     <div class="text-center">
