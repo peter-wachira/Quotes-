@@ -1,8 +1,9 @@
   <div class="card-body ">
-    <p>
+    <p class="h3 h3-responsive font-bold wow fadeInLeft" data-wow-delay="0.3s" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">
       Quote:{{quote.quote}}
 
     </p>
+     <p class="h3 h3-responsive font-bold wow fadeInLeft" data-wow-delay="0.3s" *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">Quote:{{quote.quote}}</p>
     <p>
       Author:{{quote.author}}
     </p>
