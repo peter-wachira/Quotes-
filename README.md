@@ -20,7 +20,7 @@
 
 - Clone  or download and unzip the repository from github, [https://github.com/lydiah2015/Angular-quotes.git](https://github.com/peter-wachira/Quotes-.git).
 - If you have git Use this command `git clone *` to clone the project.
-- Run ng serve froom your terminal
+- Run ng serve from your terminal
 
 ## Live Demo
 To view the page click on the link below
