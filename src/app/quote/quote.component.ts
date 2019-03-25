@@ -28,16 +28,16 @@ export class QuoteComponent implements OnInit {
   delQuote(i) {
     this.quotes.splice(i, 1)
   }
-  highestUpvote(){
-    this.previousNo = 0
-    this.lastNo = 0
-
-  for(this.token = 0 ; this.token <this.quotes.length; this.token++) {
-  this.lastNo = this.quotes[this.token].upvotes;
-  if (this.lastNo > this.previousNo) { this.previousNo = this.lastNo }
-}
-return this.previousNo
-}
+//   highestUpvote(){
+//     this.previousNo = 0
+//     this.lastNo = 0
+//
+//   for(this.token = 0 ; this.token <this.quotes.length; this.token++) {
+//   this.lastNo = this.quotes[this.token].upvotes;
+//   if (this.lastNo > this.previousNo) { this.previousNo = this.lastNo }
+// }
+// return this.previousNo
+// }
 
 constructor() { }
 

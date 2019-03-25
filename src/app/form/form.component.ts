@@ -13,8 +13,8 @@ export class FormComponent implements OnInit {
   quoteAuthor:string
   theWords:any
 
-  submitQuote(  ){
-    this.theWords= new Quote(this.quoteEditor,this.quoteAuthor,this.quoteWords)
+  submitQuote(){
+    this.theWords = new Quote(this.quoteEditor,this.quoteAuthor,this.quoteWords)
     this.quoteWords=''
     this.quoteAuthor=''
     this.quoteEditor=''
@@ -22,7 +22,6 @@ export class FormComponent implements OnInit {
   }
 
 
-    
 
   constructor() { }
 
