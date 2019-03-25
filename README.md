@@ -6,8 +6,8 @@
 ## Description
 - An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.
 
-## Behaviour Driven Development (BDD)
-         
+## Behaviour Driven Development(BDD)
+
 | Input                        | Ouput                                                                                            |
 |--------------------------    |----------------------------------------------------------------------------------------------    |
 | User clicks Post  Quote     | Quote form displays with input fields for Author, Publisher                  |
