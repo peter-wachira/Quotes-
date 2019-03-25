@@ -21,7 +21,7 @@ export class QuoteComponent implements OnInit {
     this.quotes[i].upvotes ++;
   }
   downvote(i) {
-    this.quotes[i].downvotes ++;
+    this.quotes[i].downvotes  ++;
   }
   delQuote(i) {
     this.quotes.splice(i, 1)
