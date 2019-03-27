@@ -17,7 +17,7 @@
 
 ## Setup/Installation requirements
 
-- Clone  or download and unzip the repository from github, [https://github.com/lydiah2015/Angular-quotes.git](https://github.com/peter-wachira/Quotes-.git).
+- Clone  or download and unzip the repository from github, [https://github.com/peter-wachira/Quotes-/](https://github.com/peter-wachira/Quotes-.git).
 - If you have git Use this command `git clone *` to clone the project.
 - Run ng serve from your terminal
 
