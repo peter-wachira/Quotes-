@@ -1,6 +1,6 @@
 
 # Quotes
-#### Quiz Board, March 25th 2019
+#### Quotes, March 25th 2019
 #### By **Peter Wachira**
 
 ## Description
